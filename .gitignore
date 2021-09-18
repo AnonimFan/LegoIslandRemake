@@ -75,7 +75,9 @@ StyleCopReport.xml
 *_h.h
 *.ilk
 *.meta
-*.obj
+LEGO1/src/*.obj
+Config/src/*.obj
+Isle/src/*.obj
 *.iobj
 *.pch
 *.pdb
