@@ -7,11 +7,14 @@ Remake, lego island, just about it
 
 #### Building
 
-##### Visual Studio on Windows:
-Open up the solution and build the solution
+**Visual Studio on Windows**:
+
+Open up the solution and build the solution.
+
 If you are getting an error that a Windows SDK version is missing, retarget the solution
 
-##### GCC on Windows:
+**GCC on Windows**:
+
 Assuming you've got mingw-w64, execute the following commands:
 ```
 g++ -S LEGO1/src/*.cpp -c LEGO1/src/*.cpp -Ivendor/glad/include/ -Ivendor/glfw/include/ -Ivendor/glew/include/
